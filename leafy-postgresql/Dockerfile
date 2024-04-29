@@ -15,4 +15,4 @@ ENV POSTGRES_DB=mydb
 EXPOSE 5432
 
 CMD ["postgres", "-c", "config_file=/etc/postgresql/custom.conf"]
-#aa
+#aa 
