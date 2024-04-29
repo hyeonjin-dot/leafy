@@ -27,5 +27,3 @@ COPY --from=build /app/build/libs/*.jar /app/leafy.jar
 EXPOSE 8080 
 ENTRYPOINT ["java"] 
 CMD ["-jar", "leafy.jar"]
-
-#ss
